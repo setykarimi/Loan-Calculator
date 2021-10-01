@@ -71,9 +71,9 @@ function showError(error) {
     card.insertBefore(errorDiv, heading);
 
     //clear error after 3 second
-    setTimeout(cleareError, 3000);
+    setTimeout(clearError, 3000);
 }
 
-function cleareError() {
-    document.querySelector('.alert').remove()
+function clearError() {
+    document.querySelector('.alert').remove();
 }
